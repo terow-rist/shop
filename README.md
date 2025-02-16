@@ -35,11 +35,19 @@ This is a simple FastAPI-based shop API that allows users to manage products, us
    ```env
    MONGO_URI=mongodb://localhost:27017
    ```
-5. Run the application:
+5. Run the application using `uvicorn`:
    ```sh
-   fastapi dev main.py
+   uvicorn main:app --reload
    ```
-   
+
+   The `--reload` flag enables auto-reloading of the app during development.
+
+6. Open the API documentation by navigating to:
+   ```
+   http://127.0.0.1:8000/docs
+   ```
+
+   Here, you can explore the available endpoints and test them.
 
 ## API Endpoints
 
@@ -68,7 +76,5 @@ This is a simple FastAPI-based shop API that allows users to manage products, us
 | DELETE | `/orders/{id}`    | Delete an order by ID       |
 
 
-
 ## License
 This project is open-source and available under the MIT License.
-
