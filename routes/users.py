@@ -1,5 +1,5 @@
 from fastapi import  APIRouter, HTTPException
-from shop.database import db, format_document
+from database import db, format_document
 from pydantic import BaseModel, EmailStr, Field, validator
 from bson import ObjectId
 
