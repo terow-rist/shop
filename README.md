@@ -45,6 +45,8 @@ This is a simple FastAPI-based shop API that allows users to manage products, us
 6. Open the API documentation by navigating to:
    ```
    http://127.0.0.1:8000/docs
+   or
+   https://shop-zj5o.onrender.com/docs
    ```
 
    Here, you can explore the available endpoints and test them.
